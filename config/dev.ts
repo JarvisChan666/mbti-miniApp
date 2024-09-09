@@ -5,5 +5,14 @@ export default {
     stats: true
   },
   mini: {},
-  h5: {}
+  h5: {},
+  module: {
+    rules: [
+      {
+        test: /\.json$/,
+        type: "json",
+      },
+      // other rules...
+    ],
+  },
 } satisfies UserConfigExport<'webpack5'>

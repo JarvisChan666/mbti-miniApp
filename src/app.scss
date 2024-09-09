@@ -1,0 +1,19 @@
+/* Define primary colors for the blackpink theme */
+$primary-pink: #ff69b4; /* Hot Pink */
+$primary-black: #000000; /* Black */
+
+/* Apply the primary colors where needed */
+body {
+  color: $primary-black;
+  background-color: #f5f5f5; /* Light gray background for contrast */
+  
+  .primary-button {
+    background-color: $primary-pink;
+    color: #ffffff; /* White color for text */
+  }
+
+  .primary-background {
+    background-color: $primary-black;
+    color: $primary-pink;
+  }
+}
